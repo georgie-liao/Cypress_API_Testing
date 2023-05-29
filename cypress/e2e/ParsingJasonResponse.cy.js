@@ -27,7 +27,7 @@ describe("API Testing", ()=>{
             url: 'https://fakestoreapi.com/products',
             qs: //qs: query params
             {
-                limit: 5 //limit to get response with 5 objects only
+                limit: 5 //Set limit to get response with 5 objects only
             }
         }).then((response)=>{
             expect(response.status).to.equal(200),
